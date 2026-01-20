@@ -304,7 +304,7 @@
   userInput.style.borderRadius = "8px";
   userInput.style.backgroundColor = "#e0e0e0";
   userInput.style.width = "100px";
-  userInput.value = localStorage.getItem("specificUser") || "14790897";
+  userInput.value = localStorage.getItem("specificUser") || "";
 
   document.body.appendChild(userInput);
 
